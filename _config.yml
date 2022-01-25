@@ -1,1 +1,29 @@
+title: "Shreenita Ghosh"
+author: "Shreenita Ghosh"
+description: "Maintained by Shreenita Ghosh"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {title: About, file: "about.html"}
+  - {title: Portfolio,file: "portfolio.html" }
+  - {title: Resume, file: "cv.html"}
+  - {title: Blog, url: "https://shreenitacom.wordpress.com/blog/"}
+  - {title: Contact, file: "contact.html"}
+  
+
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+- {title: Mail, icon: envelope, url: "mailto:shreenita.ghosh@gmail.com"}
+- {title: Github, icon: github, url: "https://github.com/shreenita1989"}
+- {title: Twitter, icon: twitter, url: "https://twitter.com/ShreenitaGhosh"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
 theme: jekyll-theme-minimal
